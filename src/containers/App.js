@@ -30,16 +30,16 @@ onSearchChange = (event) => {
             return robot.name.toLowerCase().includes(searchfield.toLowerCase());
         });
         return !robots.length ? 
-            <h1>Loading</h1> :
+            <h1 className='tc f3'>Loading</h1> :
             (
             <div className = 'tc'>
             <h1 className='f1'>RoboFriends</h1>
             <SearchBox searchChange={this.onSearchChange}/>
-            <Scroll>
+            {/* <Scroll> */}
                 <ErrorBoundry>
                     <CardList robots = {filterRobots}/>
                 </ErrorBoundry>
-            </Scroll>
+            {/*</Scroll>*/}
             </div>
         );
     
