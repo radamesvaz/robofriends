@@ -1,4 +1,4 @@
-font-face {
+@font-face {
     font-family: 'SEGA LOGO FONT';
     font-style: normal;
     font-weight: normal;
@@ -6,7 +6,7 @@ font-face {
     }
 
     h1 {
-        font-family: 'SEGA LOGO FONT';
+        font-family: 'SEGA LOGO FONT', Snell Roundhand, cursive;
         font-weight: 200;
         color: #0ccac4;
     }
