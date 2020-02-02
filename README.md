@@ -13,3 +13,11 @@ The image of robots are fetched from the RoboHash API. Having an object with the
 
 ## How To Use
 
+The main point of the app is to filter robots according to the user's input in the Searchbox. Just type in the SearchRobots and the application will show robots that match the criteria of your search. 
+
+<h2 align="center">
+  <img src="https://github.com/radamesvaz/readme-expamples/blob/master/htu1.png" alt="Simplefolio" width="600px" />
+  <br>
+</h2>
+
+You can also scroll down and see every robot.
